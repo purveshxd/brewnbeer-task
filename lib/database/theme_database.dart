@@ -15,7 +15,7 @@ class ThemeDatabase {
     try {
       String? theme = prefs.getString('userTheme');
       if (theme == null) {
-        return ThemeData.light();
+        return ThemeData();
       } else {
         return CustomTheme.fromJson(jsonDecode(theme)).toThemeData();
       }

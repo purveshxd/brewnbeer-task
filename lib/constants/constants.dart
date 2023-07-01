@@ -5,6 +5,7 @@ class Constants {
   static const String lightTheme = 'light';
   static const String systemTheme = 'system';
   static const String userTheme = 'user';
+  static const String resetTheme = 'reset';
 
   static MaterialColor getMaterialColor(Color color) {
     final int red = color.red;

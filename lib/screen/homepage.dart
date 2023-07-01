@@ -44,7 +44,7 @@ class HomePage extends ConsumerWidget {
                       onPressed: () {
                         ref
                             .read(currentThemeProvider.notifier)
-                            .update((state) => 'default');
+                            .update((state) => Constants.resetTheme);
                         ThemeDatabase().resetTheme();
                       },
                       label: "Reset",

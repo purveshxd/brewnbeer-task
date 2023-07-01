@@ -25,7 +25,8 @@ final themeProvider = Provider<ThemeData>((ref) {
 
     case Constants.systemTheme:
       return ThemeData();
-
+    case Constants.resetTheme:
+      return ThemeData();
     default:
       return defaultTheme;
   }

@@ -25,7 +25,7 @@ class MyApp extends ConsumerWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: theme.copyWith(useMaterial3: true),
-      home: const HomePage(),
+      home: const HomePage(    ),
     );
   }
 }
